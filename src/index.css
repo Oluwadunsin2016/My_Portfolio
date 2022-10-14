@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dashboard{
+background: url('./assets/img/footer-bg.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-repeat: center;
+height: 100vh;
+}
+
+.login{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+
+/* Form css */
+.form{
+padding: 4rem 0;
+}
+
+.form h1{
+text-align: center;
+}
+
+label{
+color: #fff;
+margin-bottom: 0.5rem;
+}
+
+form{
+display: flex;
+flex-direction: column;
+padding: 1rem;
+margin: auto;
+max-width: 600px;
+}
+
+form input,form textarea{
+margin-bottom: 1rem;
+padding: 10px 18px;
+font-size: 1.2rem;
+background-color: rgba(255, 255, 255, 0.1);
+border-color: rgba(255, 255, 255, 0.1);
+color: #f4f4f4;
+}
+
+.butt{
+padding: 12px 32px;
+font-size: 1rem;
+text-transform: uppercase;
+background: rgb(248, 217, 15);
+color: #222;
+border: 1px solid #fff;
+font-weight: 600;
+cursor: pointer;
+margin-right: 4px;
+border-radius: 5px;
+}
+.but{
+padding: 12px 32px;
+font-size: 1rem;
+text-transform: uppercase;
+background: rgb(248, 30, 15);
+color: #ddd;
+border: 1px solid #fff;
+font-weight: 600;
+cursor: pointer;
+margin-left: 4px;
+border-radius: 5px;
+}
+
+.btn-con{
+display: flex;
+justify-content: center;
+}
